@@ -1,0 +1,29 @@
+{
+  "name": "abpacker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "webpack --watch --mode=development & NODE_ENV=development DEBUG=abpacker_app* nodemon ./bin/www; kill $!"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "date-fns": "^2.11.0",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.5",
+    "morgan": "~1.9.1",
+    "socket.io": "^2.3.0",
+    "stripe": "^8.32.0",
+    "uuid": "^7.0.2",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "mocha": "^7.1.0",
+    "nodemon": "^2.0.2",
+    "webpack-cli": "^3.3.11"
+  }
+}
