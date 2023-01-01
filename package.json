@@ -18,12 +18,12 @@
     "socket.io": "^2.3.0",
     "stripe": "^8.32.0",
     "uuid": "^7.0.2",
-    "webpack": "^4.42.0"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "grunt": "^1.1.0",
     "mocha": "^7.1.0",
     "nodemon": "^2.0.2",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^5.0.1"
   }
 }
